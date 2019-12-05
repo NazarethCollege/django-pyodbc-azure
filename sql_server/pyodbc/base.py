@@ -8,8 +8,8 @@ import time
 from django.core.exceptions import ImproperlyConfigured
 from django import VERSION
 
-if VERSION[:3] < (2,1,0) or VERSION[:2] >= (2,2):
-    raise ImproperlyConfigured("Django %d.%d.%d is not supported." % VERSION[:3])
+#if VERSION[:3] < (2,1,0) or VERSION[:2] >= (2,2):
+#    raise ImproperlyConfigured("Django %d.%d.%d is not supported." % VERSION[:3])
 
 try:
     import pyodbc as Database
